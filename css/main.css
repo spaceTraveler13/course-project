@@ -1,0 +1,469 @@
+
+
+
+			/****		Specifications		****/
+
+
+
+@font-face {
+	font-family: 'GillSansMT';
+	src: url('../fonts/GillSansMT.ttf') format('trutype');
+	src: url('../fonts/GillSansMT.woff') format('woff');
+	src: url('../fonts/GillSansMT.woff2') format('woff2');
+	font-weight: normal;	 
+}
+
+@font-face {
+	font-family: 'GillSansMT-Bold';
+	src: url('../fonts/GillSansMT-Bold.ttf') format('trutype');
+	src: url('../fonts/GillSansMT-Bold.woff') format('woff');
+	src: url('../fonts/GillSansMT-Bold.woff2') format('woff2');
+	font-weight: bold;
+}
+
+body {
+	color: #98A2B0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	color:#202229;
+
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	color:#202229;
+}
+
+a:hover {
+	color: #98A2B0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+h2.section-title {
+	font-size: 42px;
+}
+
+h3.section-title {
+	font-size: 26px;
+}
+
+.btn {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background-color: #007EF8;
+	display: block;	
+	border-radius: 30px;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background-color: #009EF8;
+	color: #fff;
+}
+
+.ghost {
+	font-family: 'Lato', sans-serif;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 30px;
+	display: block;
+	transition: all 0.5s ease;
+}
+
+.ghost:hover {
+	background-color: #98A2B0;
+	border: 1px solid #98A2B0;
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+			/****		Header		****/
+
+
+
+
+
+.header {
+	background: url('../img/bg-img.jpg') no-repeat center bottom/cover;
+	padding-top: 44px;
+}
+
+.burger {
+	display: block;
+	background: url('../img/icon-menu.png') no-repeat center center/contain;
+	width: 19px;
+	height: 12px;
+	border: none;
+}
+
+.menu {
+	margin-left: 25px;
+}
+
+
+.menu__item:not(:last-of-type) {
+	margin-right: 30px;
+}
+
+.logo {
+	display: block;
+	background: url('../img/logo-menu.png') no-repeat center center/contain;
+	height: 15px;
+}
+
+.item-help:nth-child(n+1) {
+	margin-right: 30px;
+}
+
+.get-btn {
+    max-width: 132px;
+    padding: 10px 20px;
+
+
+}
+
+.get-btn::before {
+	content: ' ';
+	background: url('../img/icon-apple.png') no-repeat center center/contain;
+	display: block;
+	display: flex;
+	width: 16px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.offer {
+	max-width: 795px;
+	margin-top: 125px;
+	text-align: center;
+}
+
+.offer-text {
+	margin: 38px 0 55px;
+}
+
+.offer-btn {
+	padding: 15px 42px;
+	max-width: 203px;
+}
+
+.offer-btn::before {
+	content: ' ';
+	background: url('../img/icon-play.png') no-repeat center center/contain;
+	width: 10px;
+	height: 10px;
+	display: block;
+	margin-right: 10px;
+}
+
+.iphone-header {
+	margin-top: 55px;
+}
+
+
+			
+			/****		Features 		****/
+
+
+
+
+.features {
+	padding-top: 123px;
+	background-color: #fff;
+}
+
+.section-img {
+	margin-bottom: 40px;
+}
+
+.section-title {
+	margin-bottom: 40px;
+}
+
+
+
+
+		/***		Iphone section 		****/
+
+
+
+
+.iphone-section {
+	overflow-x: hidden;
+}
+
+.iphone {
+	margin-top: 112px;
+	margin-left: -88px;
+}
+
+.section-wrapper {
+	margin-top: 112px;
+	width: 420px;
+}
+
+.section-btns {
+	display: flex;
+	margin-top: 75px;
+}
+
+.first-btn {
+	max-width: 203px;
+	padding: 10px 20px;
+}
+
+.first-btn::after {
+	content: ' ';
+	background: url('../img/arrow-try.png')no-repeat center center/contain;
+	width: 13px;
+	height: 13px;
+	display: block;
+	margin-left: 45px;
+}
+
+.second-btn {
+	max-width: 147px;
+	padding: 12px 30px;
+}
+
+
+
+
+			/****		Map 		****/
+
+
+
+.map {
+	padding: 160px 0 240px;
+	overflow-x: hidden;
+}
+
+.partners {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.dropbox {
+	background: url('../img/logo-dropbox.png') no-repeat center center/contain;
+	display: block;
+	width: 125px;
+	height: 34px;
+}
+
+.evernote {
+	background: url('../img/logo-evernote.png') no-repeat center center/contain;
+	display: block;
+	width: 125px;
+	height: 34px;
+}
+
+.maps-img {
+	margin-top: 15px;
+	max-width: 305px;
+}
+
+.partners-logo {
+	margin-top: 60px;
+}
+
+.world-map {
+	margin-left: 45px;
+}
+
+
+
+			/****		Footer 		****/
+
+
+
+.footer {
+	padding-bottom: 210px;
+}
+
+.logo-footer {
+	display: block;
+	background: url('../img/logo-menu.png') no-repeat center center/contain;
+	width: 133px;
+	height: 15px;
+}
+
+
+.footer-text {
+	line-height: 1.8em;
+	font-size: 14px;
+	margin: 25px 0;
+}
+
+.footer-img {
+	display: block;
+	background: url('../img/download-img.png') no-repeat center center/contain;
+	width: 142px;
+	height: 42px;
+}
+
+.columns-title {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.list__item {
+	text-align: center;
+}
+
+.list__item:not(:last-of-type) {
+	margin-bottom: 12px;
+}
+
+.list__item-text {		
+	color: #98A2B0;
+}
+
+
+
+
+			/****	Responsive 		****/
+
+
+
+
+@media(max-width: 1200px) {
+	.world-map {
+		margin-left: 0;
+	}
+
+	.iphone {
+		margin-left: 0;
+	}
+
+
+}
+
+@media(max-width: 991px) {
+
+	.iphone-section, .map {
+		overflow-x: visible;
+	}
+
+	.section-lock {
+		margin-bottom: 50px;
+	}
+
+	.section-img {
+		margin-bottom: 30px;
+	}
+
+	.section-wrapper {
+		width: auto;
+	}
+
+	.map {
+		padding-bottom: 160px;
+	}
+
+	.world-map {
+        margin: auto
+	}
+
+
+	.maps-img {
+		margin: 35px 0;
+	}
+
+	.logo-footer {
+		margin: 0 auto;
+	}
+
+	.footer-text {
+		text-align: center;
+	}
+
+	.footer-img {
+		margin: 0 auto;
+	}
+
+	.columns-title {
+		margin-top: 35px;
+	}
+
+}
+
+@media(max-width: 767px) {
+	.iphone-img {
+		width: 90%;
+    	margin: auto;
+	}
+	
+	.section-img {
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.section-title {
+		text-align: center;
+	}
+
+	.section-text {
+		text-align: center;
+	}
+
+	.iphone {
+		width: 90%;
+    	margin: 80px auto 0;
+	}
+
+	.world-map {
+		width: 90%;
+        margin: auto
+	}
+
+	.section-wrapper {
+		margin-top: 80px;
+	}
+
+	.partners {
+		display: block;
+		text-align: center;
+	}
+
+	.maps-img {
+		margin: 35px auto;
+	}
+
+	h2.section-title {
+		font-size: 26px;
+	}
+
+}
+
+@media(max-width: 575px) {
+	
+	.first-btn {
+		margin: 0 0 30px 0;
+	}
+
+}
